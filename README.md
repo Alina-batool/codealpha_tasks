@@ -23,7 +23,7 @@ This is a simple rule-based chatbot built using Python. The chatbot responds to 
 1. Make sure Python 3 is installed.
 2. Download or clone this repository.
 3. Open the project folder in VS Code or any Python IDE.
-4. Run the following command:
+4. Run the following command
 
 ```bash
 python chatbot.py
@@ -65,7 +65,6 @@ README.md
 - Store conversation history.
 - Create a graphical user interface (GUI).
 
-## Alina-Batool
 
 ## Author
 Your Name
