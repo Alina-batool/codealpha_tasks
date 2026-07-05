@@ -1,16 +1,16 @@
 # Basic Rule-Based Chatbot
 
 ## Overview
-This is a simple rule-based chatbot built using Python. The chatbot responds to predefined user inputs using `if-elif-else` statements and continues the conversation until the user exits.
+This project is a simple rule-based chatbot developed in Python. The chatbot responds to predefined user inputs using `if-elif-else` statements and continues interacting with the user until they choose to exit. This project demonstrates the basic concepts of Python programming, including functions, loops, conditional statements, and user input/output.
 
 ## Features
-- Greets the user.
-- Responds to greetings like **hi** and **hello**.
+- Greets the user with a welcome message.
+- Responds to greetings such as **hi** and **hello**.
 - Responds when the user says they are doing well.
-- Tells a joke.
+- Tells a simple joke.
 - Responds when the user laughs.
 - Ends the conversation when the user types **bye**.
-- Displays a default message for unknown inputs.
+- Displays a default message for unrecognized inputs.
 
 ## Technologies Used
 - Python 3
@@ -20,10 +20,11 @@ This is a simple rule-based chatbot built using Python. The chatbot responds to 
 - User Input and Output
 
 ## How to Run
-1. Make sure Python 3 is installed.
+
+1. Make sure Python 3 is installed on your computer.
 2. Download or clone this repository.
 3. Open the project folder in VS Code or any Python IDE.
-4. Run the following command
+4. Run the following command in the terminal:
 
 ```bash
 python chatbot.py
@@ -31,7 +32,7 @@ python chatbot.py
 
 ## Sample Conversation
 
-```
+```text
 Hello! I am Piko
 Your friendly chatbot. How can I assist you today?
 
@@ -53,9 +54,10 @@ Piko: Goodbye! Have a great day!
 
 ## Project Structure
 
-```
-chatbot.py
-README.md
+```text
+basic-rule-based-chatbot/
+│── chatbot.py
+│── README.md
 ```
 
 ## Future Improvements
@@ -65,37 +67,17 @@ README.md
 - Store conversation history.
 - Create a graphical user interface (GUI).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Learning Outcomes
+Through this project, I learned:
+- How to create functions in Python.
+- How to use loops for continuous interaction.
+- How to implement decision-making using `if-elif-else`.
+- How to take user input and display appropriate responses.
+- How to organize and upload a Python project to GitHub.
 
 ## Author
-Your Name
+Alina Batool
+
+**Alina Batool**
+
+Python Internship Project
