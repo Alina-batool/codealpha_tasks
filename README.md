@@ -65,7 +65,7 @@ README.md
 - Store conversation history.
 - Create a graphical user interface (GUI).
 
-Alina Batool
+
 
 
 
