@@ -140,6 +140,88 @@ Word: a _ _ _ _
 
 ## License
 This project is for educational purposes.
+# Stock Portfolio Tracker
+
+## Description
+The Stock Portfolio Tracker is a simple Python program that calculates the total value of a user's stock portfolio. The user enters stock symbols and the number of shares they own, and the program calculates the total investment using predefined stock prices. The program also provides an option to save the total investment value to a text file.
+
+## Features
+- Uses a hardcoded dictionary to store stock prices.
+- Accepts user input for stock symbols and quantities.
+- Calculates the total investment value.
+- Displays the total investment on the screen.
+- Optionally saves the result to a text file (`portfolio.txt`).
+
+## Technologies Used
+- Python 3
+- Dictionary
+- Input/Output
+- Loops
+- If-Else Statements
+- Basic Arithmetic
+- File Handling
+
+## How to Run
+1. Make sure Python 3 is installed on your computer.
+2. Save the program as `stock_portfolio.py`.
+3. Open a terminal or command prompt.
+4. Navigate to the project folder.
+5. Run the following command:
+
+```bash
+python stock_portfolio.py
+```
+
+## Sample Stock Prices
+
+| Stock Symbol | Price ($) |
+|--------------|----------:|
+| AAPL         | 180 |
+| TSLA         | 250 |
+| GOOGL        | 140 |
+| MSFT         | 330 |
+| AMZN         | 150 |
+
+## Example Output
+
+```text
+=== Stock Portfolio Tracker ===
+
+Enter the number of different stocks: 2
+
+Enter stock symbol (AAPL, TSLA, GOOGL, MSFT, AMZN): AAPL
+Enter quantity: 5
+
+Enter stock symbol (AAPL, TSLA, GOOGL, MSFT, AMZN): TSLA
+Enter quantity: 3
+
+Total Investment Value: $1650
+
+Do you want to save the result? (yes/no): yes
+Result saved to portfolio.txt
+```
+
+## Project Structure
+
+```
+StockPortfolioTracker/
+│── stock_portfolio.py
+│── README.md
+│── portfolio.txt   (generated if you choose to save the result)
+```
+
+## License
+This project is created for educational purposes.
+
+
+
+
+
+
+
+
+
+
 
 ## Author
 **Alina Batool**
